@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balarabe Alhassan | Software Engineer</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #071426;
+            color: white;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 8%;
+            background: #0b1d35;
+        }
+
+        .logo {
+            color: #00bfff;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #00bfff;
+        }
+
+        .hero {
+            min-height: 85vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 50px 8%;
+            text-align: center;
+        }
+
+        .hero-content {
+            max-width: 800px;
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 span {
+            color: #00bfff;
+        }
+
+        .hero h2 {
+            font-size: 25px;
+            color: #b8c7d9;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            color: #cbd5e1;
+            font-size: 17px;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 25px;
+            background: #00bfff;
+            color: #071426;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            margin: 8px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: white;
+            transform: translateY(-3px);
+        }
+
+        section {
+            padding: 70px 8%;
+        }
+
+        section h2 {
+            text-align: center;
+            font-size: 32px;
+            color: #00bfff;
+            margin-bottom: 30px;
+        }
+
+        .about {
+            background: #0b1d35;
+            text-align: center;
+        }
+
+        .about p {
+            max-width: 750px;
+            margin: auto;
+            line-height: 1.9;
+            color: #cbd5e1;
+        }
+
+        .skills-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .skill {
+            background: #112944;
+            padding: 20px 30px;
+            border: 1px solid #00bfff;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .skill:hover {
+            transform: translateY(-5px);
+            background: #00bfff;
+            color: #071426;
+        }
+
+        .contact {
+            text-align: center;
+            background: #0b1d35;
+        }
+
+        .contact p {
+            margin: 12px 0;
+            color: #cbd5e1;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #04101e;
+            color: #94a3b8;
+        }
+
+        footer span {
+            color: #00bfff;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 0 7px;
+                font-size: 14px;
+            }
+
+            .hero h1 {
+                font-size: 34px;
+            }
+
+            .hero h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">BA.</div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+
+            <h1>Hello, I'm <span>Balarabe Alhassan</span></h1>
+
+            <h2>Software Engineer</h2>
+
+            <p>
+                I am passionate about technology, software development,
+                programming, and building creative digital solutions.
+                I believe in continuous learning, innovation,
+                and using technology to solve real-world problems.
+            </p>
+
+            <a href="#about" class="btn">Explore My Portfolio</a>
+
+            <a href="https://wa.me/2349060448873"
+               class="btn" target="_blank">
+                Contact Me on WhatsApp
+            </a>
+
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Me</h2>
+
+        <p>
+            My name is Balarabe Alhassan, a software engineering student
+            passionate about programming, technology, and innovation.
+            I am developing my skills in software engineering and web
+            development with the aim of creating useful, reliable,
+            and modern digital solutions.
+        </p>
+
+        <br>
+
+        <p>
+            Registration Number: UG24/COMMS/2/1045
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>My Interests</h2>
+
+        <div class="skills-container">
+            <div class="skill">Software Engineering</div>
+            <div class="skill">Web Development</div>
+            <div class="skill">HTML &amp; CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">C++ Programming</div>
+            <div class="skill">Python</div>
+            <div class="skill">Technology</div>
+            <div class="skill">Problem Solving</div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Let's Connect</h2>
+
+        <p>Do you have an idea, project, or opportunity?</p>
+
+        <p>Let's connect and share ideas.</p>
+
+        <a href="https://wa.me/2349060448873"
+           class="btn" target="_blank">
+            WhatsApp Me
+        </a>
+
+        <p>Phone: 09060448873</p>
+    </section>
+
+    <footer>
+        <p>
+            &copy; 2026 <span>Balarabe Alhassan</span>.
+            All Rights Reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
